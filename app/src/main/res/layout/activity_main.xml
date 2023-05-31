@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/mushroom1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-600dp"
+        android:backgroundTint="#009667"
+        android:text="Белый гриб"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/mushroom2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-350dp"
+        android:backgroundTint="#009667"
+        android:text="Лисичка"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/mushroom3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-100dp"
+        android:backgroundTint="#009667"
+        android:text="Подосиновик"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/mushroom4"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#009667"
+        android:text="Мухомор"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/mushroom5"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#009667"
+        android:text="Бледная поганка"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
